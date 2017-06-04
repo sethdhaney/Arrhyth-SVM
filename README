@@ -1,0 +1,18 @@
+Arr_SVM.py: 
+
+This file uses the sci-kit learn support vector machine classifier to
+classify ECG readings into 16 different categories of the cardiac 
+arrhythmia. Due to missing data a feature and a few examples have been 
+removed rather than using imputation. 
+
+The classifier gets approximately 25% error rate on the cross-validation
+set.  The data set is taken from 
+
+https://archive.ics.uci.edu/ml/datasets/Arrhythmia
+
+It is also described in the file 
+
+arrhythmia.names
+
+
+
